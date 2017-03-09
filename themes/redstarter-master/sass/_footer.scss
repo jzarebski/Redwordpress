@@ -1,0 +1,43 @@
+#footer{
+  background: url("../../assets/images/dark-wood.png") repeat-x;
+  min-height: 45vh;
+  width: 100%;
+  z-index: 2;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sub-container{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.color-orange{
+  color: orange;
+}
+.color-white{
+  color:white;
+}
+
+#footer ul li{
+  display: inline;
+  justify-content: flex-start;
+  letter-spacing: 10px;
+}
+
+.copyright{
+  text-align: center;
+}
+.logo-text-white{
+  background: url("../../assets/images/logos/inhabitent-logo-text.svg")no-repeat;
+  background-size: contain;
+  min-height: 10vh;
+  width: 20%;
+}
+

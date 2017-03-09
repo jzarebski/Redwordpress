@@ -1,0 +1,97 @@
+#background-img {
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/images/logos/inhabitent-logo-full.svg")no-repeat center, linear-gradient(rgba(0,0,0,0.4),transparent) no-repeat, url("../../assets/images/home-hero.jpg") no-repeat;
+  background-size: 20%, cover,cover;
+  min-height: 110vh;
+  z-index:2;
+}
+
+.textblack p {
+  color:black;
+}
+
+.flex {
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-green {
+  text-align: center;
+  color: white;
+  border:none;
+  width: 10em;
+  height: 3em;
+  background:#248a83;
+  box-shadow: none;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.button-green a {
+  color:white;
+}
+.shop-img-size {
+  height: 35%;
+  width: 60%;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.shop-border {
+  border: 1px solid;
+  color: #d3d3d3;
+  padding: 16px 0px 30px;
+  border-top: 4px solid;
+}
+
+#shop p{
+  margin: 3em;
+  color:black;
+}
+
+.type-post img {
+  height: 90%;
+  width: 33%;
+}
+
+.width22 {
+  width: 22%;
+}
+//
+//Journal
+.journal-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.journal-post {
+  width:30%
+}
+
+.journal-post-img img{
+  height:75%;
+}
+
+.journal-title {  //title and buttons
+  border: 1px solid;
+  border-color: #d3d3d3;
+  padding: 5px;
+  text-align: left;
+  border-top: 4px solid;
+}
+
+.read-entry {
+padding: 10px;
+border: solid 1px;
+border-color: #a1a1a1;
+background-color: white;
+margin: 7px auto;
+}
